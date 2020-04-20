@@ -18,3 +18,7 @@ Mantem o cursor apontado para sua linha atual de dados.Inicialmente, o cursor é 
 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdUM","root","");
 
 *4 E um metódo estatico, ele tenta inicializar a class driver jdbc, o jdbc possui um bloco estatico que ira registrar essa classe como um driver JDBC,avisando o java.sql.driverManager pelo metodo registerDriver
+
+========================================================================================
+
+

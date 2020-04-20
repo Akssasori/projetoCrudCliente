@@ -13,7 +13,7 @@ public class Dao {
 	
 	public void open() throws Exception{
 		Class.forName("com.mysql.jdbc.Driver");//*4
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdUM","root","");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdUM","root","coti");
 		System.out.println("Ae, conectou");
 		
 	}
